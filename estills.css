@@ -231,6 +231,8 @@ table{
     background-color:#CACACA;
     flex-grow: 1;
     padding: 40%;
+    position: relative;
+    top: 60%;
     align-items: center;
     justify-content: space-between;
     border-radius: 20px;
