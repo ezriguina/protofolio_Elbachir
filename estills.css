@@ -318,7 +318,8 @@ td img{
     align-items: center;
     flex-grow: 1;
 }
-.text_contact{
+.texto_contact{
+    margin: 50%;
     background-color: white;
 }
 
