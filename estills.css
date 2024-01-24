@@ -266,11 +266,12 @@ td img{
 
 
 
-
 .contenido_about{
     background-color: #F2BB13;
     flex-grow: 1;
     padding: 40%;
+    position: relative;
+    top: 130%;
     align-items: center;
     justify-content: space-between;
     border-radius: 20px;
@@ -281,7 +282,7 @@ td img{
     margin-top: 20%;
     margin-left: 10%;
     width: 70%;
-    height: 55%;
+    height: 35%;
     animation:tabla 1s alternate-reverse infinite;
     transition: 0.7s;
 }
@@ -317,9 +318,9 @@ td img{
 }
 video{
     margin: 0%;
-    padding: 0%;
+    padding: 8%;
     width: 100%;
-    height: 20%;
+    height: 10%;
 }
 
 .contenido_skills{
