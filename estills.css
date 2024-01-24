@@ -318,10 +318,52 @@ td img{
     align-items: center;
     flex-grow: 1;
 }
-.texto_contact{
-    margin: 50%;
-    background-color: white;
+.contenido_contact h1{
+    left: 40%;
+    position: relative;
+    bottom: 40%;
+    color:black;
+    font-size: 70px;
+    animation: h1 1s alternate-reverse infinite;
 }
+@keyframes h1{
+    from{border-radius: 20px;
+        box-shadow: 1px 1px 20px rgb(170, 170, 170);
+        text-decoration: double;
+        color: black;}
+    to{border-radius: 20px;
+        box-shadow: 1px 1px 20px rgb(255, 0, 0);
+        text-decoration: dashed;
+        color: red;}
+}
+.texto_contact{
+    border-radius: 30px;
+    margin-right: 50%;
+    align-items: center;
+    box-shadow: 0px 0px 20px red;
+    width: 60%;
+    height: 30vh;
+    
+}
+.texto_contact input{
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+.texto_contact textarea{
+    background-color: black;
+    border-radius: 10px;
+    color: whitesmoke;
+    height: 50%;
+}
+.texto_contact button{
+    padding: 60px;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-color: black;
+    color:gainsboro;
+}
+
 
 
 .contenido_skills{
