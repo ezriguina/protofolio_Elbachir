@@ -13,5 +13,16 @@
     scroll-behavior: smooth;
 }
 html{
+    
     background-color: black;
+}
+h3{
+    color: white;
+}
+hr{
+    animation:hr 4s alternate-reverse infinite ;
+}
+@keyframes hr{
+    from{color: white;}
+    to{color: aqua;}
 }
