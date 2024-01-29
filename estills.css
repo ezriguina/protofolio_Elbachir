@@ -338,7 +338,7 @@ table{
     transition: 1s;
 }
 .pro4:hover{
-    color: black;
+    color: rgb(255, 255, 255);
     width: 200%;
 }
 
