@@ -229,7 +229,7 @@ table{
    border: solid black;
 }
 .contenido_home{
-    background-color: rgb(87, 87, 202);
+    background-color: rgb(0, 0, 0);
     flex-grow: 1;
     padding: 40%;
     position: relative;
