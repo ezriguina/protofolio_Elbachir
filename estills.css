@@ -243,10 +243,11 @@ table{
     position: relative;
     bottom: 80%;
 }
-.contenido_home h1{
+.contenido_home img{
+    width: 360%;
     position: relative;
+    right: 130px;
     bottom: 400px;
-    color: red;
     font-size: 60px;
 }
 
