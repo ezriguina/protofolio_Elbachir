@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.responsive-table th, .responsive-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.responsive-table th {
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 600px) {
+    .responsive-table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .responsive-table th, .responsive-table td {
+        display: block;
+        border: none;
+    }
+
+    .responsive-table th::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .responsive-table tr {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+}
+
+    </style>
+
+    <table class="responsive-table">
+        <caption>Mi tabla</caption>
+        <thead>
+            <tr>
+                <th>Título 1</th>
+                <th>Título 2</th>
+                <th>Título 3</th>
+                <th>Título 4</th>
+                <th>Título 5</th>
+                <th>Título 6</th>
+                <th>Título 7</th>
+                <th>Título 8</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Contenido</td>
+                <td>Contenido</td>
+                <td>Contenido</td>
+                <td>Contenido</td>
+                <td>Contenido</td>
+                <td>Contenido</td>
+                <td>Contenido</td>
+                <td>Contenido</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
