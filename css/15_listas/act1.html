@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.square-markers {
+  list-style-type: none;
+  padding: 0;
+}
+
+.square-markers li::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  margin-right: 0.5em;
+  border: 1px solid currentColor;
+  border-radius: 0.25em;
+}
+    </style>
+
+    <ul class="square-markers">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ul>
+</body>
+</html>
