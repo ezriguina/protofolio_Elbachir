@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <style>
+        .container {
+            background-color: aquamarine;
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.pricing-table-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.pricing-table-column {
+	background-color: white;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 30px;
+	box-sizing: border-box;
+	text-align: left;
+	width: 300px;
+}
+
+.pricing-table-header {
+	margin-bottom: 30px;
+}
+
+.pricing-table-header h2 {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+.pricing-table-header p {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.pricing-table-price {
+	margin-bottom: 30px;
+}
+
+.pricing-table-price p {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.pricing-table-price span {
+	font-size: 36px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.pricing-table-features {
+	margin-bottom: 30px;
+}
+
+.pricing-table-features h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.pricing-table-features ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.button{
+    background-color: rgb(98, 98, 180);
+}
+    </style>
+	<div class="container">
+		<div class="pricing-table-container">
+			<div class="pricing-table-column">
+				<div class="pricing-table-header">
+					<h2>Premium</h2>
+					<p>Funciones avanzadas para profesionales que necesitan más personalización</p>
+				</div>
+				<div class="pricing-table-price">
+					<p>Desde</p>
+					<p><span>$299</span>/mes basado en 10.000 contactos*</p>
+					<p>¿Cuántos contactos tienes?</p>
+					<button class="button">Compra ahora</button>
+				</div>
+				<div class="pricing-table-features">
+					<h3>Todo lo que incluye el plan Standard, más:</h3>
+					<ul>
+						<li><b>✓</b> Segmentación avanzada</li>
+						<li><b>✓</b> Pruebas multivariantes</li>
+						<li><b>✓</b> Informes comparativos</li>
+						<li><b>✓</b> Puestos ilimitados y acceso basado en funciones</li>
+						<li><b>✓</b> Asistencia técnica telefónica</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
