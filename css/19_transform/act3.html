@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.circles {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.red {
+  background-color: red;
+  left: 0;
+}
+
+.blue {
+  background-color: rgba(0, 0, 255, 0.5);
+  left: 120px;
+  transition-delay: 0.1s;
+}
+
+.circles:hover .blue {
+  left: 50px;
+}
+    </style>
+
+    <div class="circles">
+        <div class="circle red"></div>
+        <div class="circle blue"></div>
+      </div>
+</body>
+</html>
