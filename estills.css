@@ -11,10 +11,12 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 html{
     font-family: 'jesefin Sans', sans-serif;
     font-size: 16px;
+    overflow-y: auto;
 }
 .home{
     width: 100%;
@@ -593,7 +595,26 @@ background-color: rgb(255, 255, 255);
 
 .activitats_html{
     background-color: rgb(87, 87, 202);
+    text-decoration: none;
+
 }
 .activitats_css{
     background-color: rgb(87, 87, 202);
+    text-decoration: none;
+}
+.activitats_html a{
+    color: var(--lighting-color);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.6s;
+    margin-right: 40px;
+    margin-left: 60px;
+}
+.activitats_css a{
+    color: var(--lighting-color);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.6s;
+    margin-right: 40px;
+    margin-left: 60px;
 }
